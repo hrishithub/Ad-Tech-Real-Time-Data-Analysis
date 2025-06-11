@@ -44,7 +44,7 @@ The architecture involves real-time ingestion through Amazon Kinesis, processing
 - processed_time
 
 #### Business Impact
-The pipeline enables companies to monitor user engagement with ads in real time. Derived metrics help identify high-performing ad platforms, optimize bidding strategies, and fine-tune campaign targeting based on geography, platform, and device type—ultimately improving ROI on ad spend.
+The derived metrics provide valuable business insights that enhance ad performance evaluation and campaign strategy. `is_premium_ad` helps identify high-value ads, enabling better budget allocation. `engagement_duration` measures user interest, supporting content optimization. `platform_category` segments traffic sources for more targeted advertising. `click_revenue` directly ties user actions to revenue, aiding ROI analysis. `processed_time` ensures data freshness, supporting timely decision-making and performance tracking.
 
 ## My Learnings
 - Hands-on experience with PyFlink and AWS Managed Flink deployment
